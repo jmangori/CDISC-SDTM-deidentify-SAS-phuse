@@ -1,3 +1,13 @@
+# Table of Contents
+* [About The Project](#About The Project)
+  * [Built with](#Built with)
+* [Getting Started](#Getting Started)
+  * [Prerequisites](#Prerequisites)
+  * [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contact](#Contact)
+
 # About The Project
 This is the source code and a copy of the paper and presentation from the presentation on SDTM data de-identification I did at the Phuse conference in Barcelona 2016.
 
