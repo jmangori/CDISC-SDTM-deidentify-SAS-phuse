@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Usage](#Usage)
+* [About The Project](#About The Project)
 * [Usage](#Usage)
 * [Usage](#Usage)
 * [About The Project](#About The Project)
