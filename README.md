@@ -8,6 +8,7 @@
 * [Usage](#Usage)
 * [License](#License)
 * [Contact](#Contact)
+* [[Acknowledgements](#Acknowledgements)
 
 # About The Project <a name="About_The_Project"/>
 This is the source code and a copy of the paper and presentation from the presentation on SDTM data de-identification I did at the Phuse conference in Barcelona 2016.
@@ -51,3 +52,6 @@ Jørgen Mangor Iversen [jmi@try2.info](mailto:jmi@try2.info)
 [My web page in danish](http://www.try2.info) unrelated to this project.
 
 [My LinkedIn profile](https://www.linkedin.com/in/jørgen-iversen-ab5908b/)
+
+# Acknowledgements <a name="Acknowledgements"/>
+This software is made public with the explicit permission from LEO Pharma A/S
