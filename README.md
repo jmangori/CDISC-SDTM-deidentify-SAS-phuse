@@ -21,7 +21,6 @@ You need access to SAS and the SDTM data of your clinical trial. The macros were
 4. Open the program `di_DeIdentify.sas` and edit the paths for the `libname` statements near the top.
   * SDTM is the libref for your original SDTM datasets as ordinary SAS datasets `(.sas7bdat)`.
   * SDTMDEID is the libref to the new SDTM datasets after de-identification as ordinary SAS datasets `(.sas7bdat)`.
-
 5. Open the program `di_ExternalData.sas` and edit the path and possibly the file name in the `PROC IMPORT` statement pointing at the [PHUSE_STDM_redaction.xls](http://www.phuse.eu/Data_Transparency_download.aspx) spread sheet.
 
 # Usage
@@ -30,7 +29,7 @@ Apart from simply running the program `di_DeIdentify.sas` which in turn executes
 2. In the program `di_DeIdentify.sas`, locate, inspect, and modify the program section labelled **Study specific extra operations** to add/remove any macro calls not representative for your trial data.
 3. Run the program `di_DeIdentify.sas` and inspect the resulting reports and graphs for any unexpected issues.
 4. Do a visual inspection of the de-identified SDTM datasets. This is the most important part of the process, even if it requires manually reading the entirety of the SDTM datasets several times. After all, if you haven't seen your data, how do you know what is in them?
-5 If any remaining issues, loop back to 3 for adjustment of the **Study specific extra operations**
+5. If any remaining issues, loop back to 3 for adjustment of the **Study specific extra operations**
 
 # License
 Distributed under the MIT License. See [LICENSE](https://github.com/jmangori/CDISC-ODM-and-Define-XML-tools/blob/master/LICENSE) for more information.
