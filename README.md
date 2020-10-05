@@ -1,9 +1,6 @@
 # Table of Contents
 
-* [About The Project](#About The Project)
-* [Usage](#Usage)
-* [Usage](#Usage)
-* [About The Project](#About The Project)
+* [About The Project](#about)
   * [Built with](#Built with)
 * [Getting Started](#Getting Started)
   * [Prerequisites](#Prerequisites) 
@@ -12,7 +9,7 @@
 * [License](#License)
 * [Contact](#Contact)
 
-# About The Project
+# About The Project <a name="about"/>
 This is the source code and a copy of the paper and presentation from the presentation on SDTM data de-identification I did at the Phuse conference in Barcelona 2016.
 
 Most of the documentation and explanations you will find in the PowerPoint and PDF documents in the [Documents](https://github.com/jmangori/CDISC-ODM-and-Define-XML-tools/blob/master/Documents) folder.
