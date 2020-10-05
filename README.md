@@ -11,6 +11,10 @@ De-identification of SDTM can lead to de-identification and redaction of an enti
 This project is built using SAS v9.4 and SDTM versions 3.1.2, 3.2, and 3.3. As only a limited number of general SDTM variables are in scope, it is expected to work on newer version of SDTM without modification.
 
 # Getting Started
+## Prerequisites
+You need access to SAS and the SDTM data of your clinical trial. The macros were developed using SAS 9.4 (TS1M3) and will run on later versions. They may very well run on older versions of SAS as well.
+
+## Installation
 1. Obtain the spreadsheet [PHUSE_STDM_redaction.xls](http://www.phuse.eu/Data_Transparency_download.aspx) from the [Phuse](http://www.phuse.eu/Data_Transparency_download.aspx) website. You need to register to get the document. You need this document to build a local database of datasets and variables to be de-identified.
 2. Place the files in the [Programs](https://github.com/jmangori/CDISC-ODM-and-Define-XML-tools/blob/master/Programs) folder in your own **Programs** folder.
 3. Place the files in the [Macro](https://github.com/jmangori/CDISC-ODM-and-Define-XML-tools/blob/master/Macro) folder in your own **Macro** folder. Make sure this folder is in the macro search path.
@@ -20,6 +24,7 @@ This project is built using SAS v9.4 and SDTM versions 3.1.2, 3.2, and 3.3. As o
 5. Open the program `di_ExternalData.sas` and edit the path and possibly the file name in the `PROC IMPORT` statement pointing at the [PHUSE_STDM_redaction.xls](http://www.phuse.eu/Data_Transparency_download.aspx) spread sheet.
 
 # Usage
+Apart from simply running the program `di_DeIdentify.sas` which in turn executes all the macros on the default data points, a process around the de-identification needs to be in place to capture any additional data points to be de-identified. 
 
 # License
 Distributed under the MIT License. See [LICENSE](https://github.com/jmangori/CDISC-ODM-and-Define-XML-tools/blob/master/LICENSE) for more information.
