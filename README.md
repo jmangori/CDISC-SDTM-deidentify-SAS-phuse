@@ -11,7 +11,7 @@ De-identification of SDTM can lead to de-identification and redaction of an enti
 This project is built using SAS v9.4 and SDTM versions 3.1.2, 3.2, and 3.3. As only a limited number of general SDTM variables are in scope, it is expected to work on newer version of SDTM without modification.
 
 # Getting Started
-1. Obtain the spreadsheet [PHUSE_STDM_redaction.xls](http://www.phuse.eu/Data_Transparency_download.aspx) from the [Phuse](http://www.phuse.eu/Data_Transparency_download.aspx) website. You don't need to be a member of Phuse, but you do need to register to get the document. You need this document to build a local database of datasets and variables to be de-identified.
+1. Obtain the spreadsheet [PHUSE_STDM_redaction.xls](http://www.phuse.eu/Data_Transparency_download.aspx) from the [Phuse](http://www.phuse.eu/Data_Transparency_download.aspx) website. You need to register to get the document. You need this document to build a local database of datasets and variables to be de-identified.
 2. Place the files in the [Programs](https://github.com/jmangori/CDISC-ODM-and-Define-XML-tools/blob/master/Programs) folder in your own **Programs** folder.
 3. Place the files in the [Macro](https://github.com/jmangori/CDISC-ODM-and-Define-XML-tools/blob/master/Macro) folder in your own **Macro** folder. Make sure this folder is in the macro search path.
 4. Open the program `di_DeIdentify.sas` and edit the paths for the `libname` statements near the top.
