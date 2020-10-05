@@ -1,5 +1,8 @@
 # Table of Contents
 
+* [Usage](#Usage)
+* [Usage](#Usage)
+* [Usage](#Usage)
 * [About The Project](#About The Project)
   * [Built with](#Built with)
 * [Getting Started](#Getting Started)
