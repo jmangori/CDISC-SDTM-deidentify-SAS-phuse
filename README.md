@@ -8,7 +8,7 @@
 * [Usage](#Usage)
 * [License](#License)
 * [Contact](#Contact)
-* [[Acknowledgements](#Acknowledgements)
+* [Acknowledgements](#Acknowledgements)
 
 # About The Project <a name="About_The_Project"/>
 This is the source code and a copy of the paper and presentation from the presentation on SDTM data de-identification I did at the Phuse conference in Barcelona 2016.
