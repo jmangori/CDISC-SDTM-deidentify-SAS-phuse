@@ -2,7 +2,7 @@
 * [About The Project](#About The Project)
   * [Built with](#Built with)
 * [Getting Started](#Getting Started)
-  * [Prerequisites](#Prerequisites)
+  * [Prerequisites](#Prerequisites) 
   * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
