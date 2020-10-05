@@ -28,7 +28,7 @@ You need access to SAS and the SDTM data of your clinical trial. The macros were
 ## Installation <a name="Installation"/>
 1. Obtain the spreadsheet [PHUSE_STDM_redaction.xls](http://www.phuse.eu/Data_Transparency_download.aspx) from the [Phuse](http://www.phuse.eu/Data_Transparency_download.aspx) website. You need to register to get the document. This document is used to build a local dataset containing datasets and variables to be de-identified.
 2. Place the files in the [Programs](https://github.com/jmangori/CDISC-ODM-and-Define-XML-tools/blob/master/Programs) folder in your own **Programs** folder.
-3. Place the files in the [Macro](https://github.com/jmangori/CDISC-ODM-and-Define-XML-tools/blob/master/Macro) folder in your own **Macro** folder. Make sure this folder is in the macro search path.
+3. Place the files in the [Macro](https://github.com/jmangori/CDISC-ODM-and-Define-XML-tools/blob/master/Macro) folder in your own **Macro** folder. Make sure this folder is in the macro search path of your SAs system.
 4. Open the program `di_DeIdentify.sas` and edit the paths for the `libname` statements near the top.
    * SDTM is the libref for your original SDTM datasets as ordinary SAS datasets `(.sas7bdat)`.
    * SDTMDEID is the libref to the new SDTM datasets after de-identification as ordinary SAS datasets `(.sas7bdat)`.
