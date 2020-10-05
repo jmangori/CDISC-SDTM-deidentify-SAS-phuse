@@ -17,8 +17,8 @@ This project is built using SAS v9.4 and SDTM versions 3.1.2, 3.2, and 3.3. As o
 2. Place the files in the [Programs](https://github.com/jmangori/CDISC-ODM-and-Define-XML-tools/blob/master/Programs) folder in your own **Programs** folder.
 3. Place the files in the [Macro](https://github.com/jmangori/CDISC-ODM-and-Define-XML-tools/blob/master/Macro) folder in your own **Macro** folder. Make sure this folder is in the macro search path.
 4. Open the program `di_DeIdentify.sas` and edit the paths for the `libname` statements near the top.
-  * SDTM is the libref for your original SDTM datasets as ordinary SAS datasets (`.sas7bdat`).
-  * SDTMDEID is the libref to the new SDTM datasets after de-identification as ordinary SAS datasets (`.sas7bdat`).
+  * SDTM is the libref for your original SDTM datasets as ordinary SAS datasets `(.sas7bdat)`.
+  * SDTMDEID is the libref to the new SDTM datasets after de-identification as ordinary SAS datasets `(.sas7bdat)`.
 5. Open the program `di_ExternalData.sas` and edit the path and possibly the file name in the `PROC IMPORT` statement pointing at the [PHUSE_STDM_redaction.xls](http://www.phuse.eu/Data_Transparency_download.aspx) spread sheet.
 
 # Usage
